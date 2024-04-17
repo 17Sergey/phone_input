@@ -9,7 +9,7 @@ function App(props) {
     <div className="App">
       <Welcome />
       <PhoneInput flags={props.flags} />
-      <SortTable products={props.products} headings={props.headings}/>
+      {/* <SortTable products={props.products} headings={props.headings}/> */}
     </div>
   );
 }

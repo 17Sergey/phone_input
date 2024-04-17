@@ -9,8 +9,8 @@ class CountriesList extends React.Component {
 
     createOptions() {
         let options = [];
-        this.props.flags.forEach(country => {
-            options.push(<option>{country.countryName}</option>);
+        this.props.flags.forEach((country, index) => {
+            if (index === 0) options.push(<option>{country.countryName}</option>);
         })
         return options;
     }
