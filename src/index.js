@@ -8,7 +8,7 @@ let state = {
     "flags": [
         {
             countryName: "Belarus",
-            flag: "url('http://www.flags.net/images/smallflags/BLRU0001.GIF')",
+            flag: "url(http://www.flags.net/images/smallflags/BLRU0001.GIF)",
             mask: "+375 (XX) XXX-XX-XX",
         },
         {
