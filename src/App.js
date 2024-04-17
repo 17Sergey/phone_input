@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css'
-import SortTable from './components/SortTable/SortTable';
 import PhoneInput from './components/PhoneInput/PhoneInput';
 
 function App(props) {
