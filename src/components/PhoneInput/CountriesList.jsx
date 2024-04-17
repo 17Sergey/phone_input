@@ -29,7 +29,7 @@ class CountriesList extends React.Component {
                 id="countriesList"
                 className="select_countries"
                 onChange={(e) => this.chooseCountry(e.target.value)}
-                style={{ backgroundImage: this.props.currentFlag, }}
+                style={{ backgroundImage: `url(${this.props.currentFlag}`, }}
             >
                 {this.createOptions()}
             </select>
