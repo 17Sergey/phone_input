@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -15,7 +18,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +38,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.phone_input input[type="text"] {
+    margin: 20px 0 50px;
+    max-width: 300px;
+    height: 30px;
+    font-size: 18px;
+    outline: none;
+}
+
+.select_countries {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 0px 40px 0px 0;
+  height: 30px;
+  outline: none;
+  background-repeat: no-repeat;
+  background-size: 25px 15px;
+  background-position: 75% 6px;
+}
+
+.sort_table {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.sort_table table {
+  border-collapse: collapse;
+}
+.sort_table tr {
+  border-bottom: 1px solid #eee;
+}
+.sort_table td {
+  padding: 15px 30px;
+}
+.sort_table th{
+  background-color: #eee;
+  padding: 10px 30px;
+  cursor: pointer;
 }
